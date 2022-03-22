@@ -1,0 +1,12 @@
+## P15. What is the difference between MAIL FROM: in SMTP and From: in the mail message itself?
+
+MAIL FROM : in SMTP is a part of SMTP protocol , it helps establish connection and affirms the identity . From : in the mail message itself  is  part of the contents of the message , clients can see this in the message .
+
+
+
+## P20. Suppose you can access the caches in the local DNS servers of your depart- ment. Can you propose a way to roughly determine the Web servers (outside your department) that are most popular among the users in your department?Explain.
+
+Yes .  We can record the Web servers in the local DNS at set intervals .Then we count how many times the same server appears . The server of the most times is the most popular.
+
+
+
