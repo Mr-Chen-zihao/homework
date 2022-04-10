@@ -1,0 +1,58 @@
+### P40
+
+#### a）
+
+TCP slow start is operating in the intervals [1,6] and [23,26]
+
+#### b)
+
+TCP congestion avoidance is operating in the intervals [6,16] and [17,22]
+
+#### c)
+
+After the 16th transmission round,the segment loss is detected by a triple duplicate ACK 
+
+#### d)
+
+After the 22nd transmission round,the segment loss is detected by a timeout
+
+#### e)
+
+The initial value of ssthresh at the first transmission round is 32 
+
+#### f)
+
+the value of ssthresh at the 18th transmission round is 21
+
+#### g)
+
+ the value of ssthresh at the 24th transmission round is 14
+
+#### h)
+
+The 70th segment is sent in the 7th transmission round
+
+#### i)
+
+The new value of the congestion window size is 4 , and the value of ssthresh is 7
+
+#### j)
+
+ the ssthresh and the congestion window size at the 19th round  are 21 and 4
+
+#### k)
+
+1+2+4+8+16+21 = 52
+
+### P44
+
+#### a）
+
+6RTTs to increase to 12MSS
+
+#### b)
+
+(6+7+8+9+10+11+12)MSS/6RTT = 9.5MSS/RTT
+
+
+
