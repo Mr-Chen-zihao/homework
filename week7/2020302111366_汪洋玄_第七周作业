@@ -1,0 +1,72 @@
+### P22
+
+#### a）
+
+[k,k+3]
+
+[k-1,k+2]
+
+[k-2,k+1]
+
+[k-3,k]
+
+[k-4,k-1]
+
+form k-4 to k-1 , they may not receive the ACK from the receiver.
+
+#### b)
+
+from k-5 to k-1
+
+As the receiver is expecting has a sequence number of k, then from k-4 to k-1 packets have been sent ,then the value of ACK can't be less than k-5 . So it's from k-5 to k-1
+
+
+
+### P24
+
+#### a)
+
+True  . ACKs from receiver may receive late after the window changes , and the ACK may be less than the current window.
+
+#### b)
+
+True.  It's the same as a)
+
+#### c)
+
+True .They all only send one packet at one time and wait for the ACK.
+
+#### d)
+
+True . It's the same as c)
+
+
+
+### P26
+
+#### a)
+
+$2^{32}$=4294967296 
+
+It's about 4.19Gbytes
+
+#### b)
+
+The number of segments is $2^{32}$ / 536 = 8012999.
+
+The total number of bytes transmitted is  4.824*$10^9$bytes.
+
+So it would take 249 s to transmit the file over the link.
+
+
+
+
+
+
+
+
+
+
+
+
+
