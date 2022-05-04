@@ -1,0 +1,8 @@
+# week11 homework
+## Problem 3
+![508d63d13b282abe68c45f4b273fb5b0.png](en-resource://database/529:1)
+## Problem 5
+![82ef5fa0175eadaf96604bbdfed0c25e.jpeg](en-resource://database/531:1)
+## Problem 9
+1.it wouldn't cause count-to-infinite problem.because it don't cause the loop
+2.connect two point just like to decrease the link weight from finite to the infinite state.
